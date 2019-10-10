@@ -7,3 +7,5 @@ On Windows if the connect() doesn't work then go to Services and find mosquitto 
 #mosquitto_pub -t office/light -m "CLAP ON CLAP OFF THE CLAPPER"
 
 #mosquitto_sub -t office/light
+
+if connection failed Ubuntu try misquitto -d
